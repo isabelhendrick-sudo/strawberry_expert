@@ -1,0 +1,27 @@
+name: strawberry_expert
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  google_fonts: ^8.0.2
+  weather: ^3.2.1
+  geolocator: ^14.0.2
+  ultralytics_yolo: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/best_float32.tflite
